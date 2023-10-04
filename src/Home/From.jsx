@@ -1,5 +1,6 @@
 import { getBreeds } from "../Api/getBreeds";
 import { useEffect, useState } from "react";
+
 import Loading from "../Parts/Loading";
 
 const Form = (props) => {
@@ -17,7 +18,7 @@ const Form = (props) => {
     props.setBreed(breed.value);
   };
 
-  if (allBreeds == null) {
+  if (allBreeds === null) {
     return <Loading />;
   }
 

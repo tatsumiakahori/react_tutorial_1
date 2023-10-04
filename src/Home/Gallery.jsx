@@ -1,9 +1,10 @@
 import Loading from "../Parts/Loading";
 
 const Gallery = (props) => {
-  if (props.urls == null) {
+  if (props.urls === null) {
     return <Loading />;
   }
+  
   return (
     <div className="columns is-vcentered is-multiline">
       {props.urls.map((url) => {
