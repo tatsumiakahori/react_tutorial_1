@@ -6,4 +6,4 @@ Reactチュートリアル1：犬画像ギャラリーを作ろう(https://zenn.
 - コンポーネントごとにファイルを切り出し、ディレクトリ構造変えてみた
 
 一応Netlifyで公開した
-https://652090ee47086d0b10413d42--dashing-stardust-ff66d2.netlify.app/
+https://dashing-stardust-ff66d2.netlify.app/
